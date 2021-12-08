@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px) {
+   
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 10px;
+    }
+    .lists{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-item-articles{
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width: 275px) {
+    nav ul{
+        justify-content: center;
+    }
+}
